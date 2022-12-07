@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="estilos.css">
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="responsiveslides.min.js"></script>
+    <script src="wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="jquery.tinycarousel.min.js"></script>
+    <script src="funciones.js"></script>
+    <title>PROYECTO FINAL</title>
+</head>
+<body>
+    <i id="subir" class="fas fa-arrow-circle-up"></i>
+
+    <header class="cabeza">
+        <div class="cont_cabeza">
+            <div class="cont_redes">
+                <i class="fa-brands fa-facebook-f"></i>
+                <div class="separador"></div>
+                <i class="fa-brands fa-instagram"></i>
+                <div class="separador"></div>
+                <i class="fa-brands fa-twitter"></i>
+                <div class="separador"></div>
+                <i class="fa-brands fa-google"></i>
+            </div>
+            <figure>
+                <img src="imagenes/logo.png" alt="">
+            </figure>
+            <div class="cont_logo_btnmenu">
+                <a id="btnmenu" class="btn_menu" href="#"><i class="fa-solid fa-bars"></i></a>
+                <a class="btn_fusha" href="#">GET A QUOTE</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICES</a>
+        <a href="#">PORTAFOLIO</a>
+        <a href="#">TEAM</a>
+        <a href="#">PRICING</a>
+        <a href="#">BLOG & CONTACT</a>
+    </nav>
+    
+    <div class="fondo_gris"></div>
+
+    <section class="ancho cont_acerca_slide">
+        <div class="info_acerca">
+            <p class="subtitulo">Saloon | Wax Expert | Hairdresser</p>
+            <p class="titulo">A Wide Range of Waxing Services</p>
+            <p class="subtitulo">How To Full Body Wax</p>
+            <a class="btn_fusha2" href="#">GET A FREE QUOTE</a>
+        </div>
+        <div class="cont_slidess contenedor_slide">
+            <ul class="rslides">
+                <li><img src="imagenes/slide1.jpg" alt="" /></li>
+                <li><img src="imagenes/slide2.jpg" alt="" /></li>
+                <li><img src="imagenes/slide3.jpg" alt="" /></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="parrallaxas">
+        <div class="inf_para">
+            <div class="texto_para">
+                <h1>International Wax Shop</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. It is a long established fact that a reader will be Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="texto2_para">
+                    <i class="fa-solid fa-ticket"></i>
+                    <div>
+                        <h3>Upper Body Waxing</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                    </div>
+                </div>
+                <div class="texto2_para">
+                    <i class="fa-solid fa-bottle-droplet"></i>
+                    <div>
+                        <h3>Lower Body Waxing</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img_paras">
+                <figure>
+                    <img class="wow animate__animated animate__slideInRight img1" src="imagenes/parallaxsobre1.jpg" alt="">
+                </figure>
+                <figure>
+                    <img class="wow animate__animated animate__slideInLeft img2" src="imagenes/parallaxsobre2.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="titulosecci">
+            <p class="subtitulo2">What We Do</p>
+            <p class="titulo"><span>Our</span> Services</p>
+        </div>
+        <div class="ancho servicioss">
+            <article class="wow animate__animated animate__bounceInRight servicio">
+                <h1 class="encabezado">01</h1>
+                <h3 class="subtitulo3">Underarm Waxing</h3>
+                <p class="articuloinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum</p>
+                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article class="wow animate__animated animate__bounceInRight servicio">
+                <h1 class="encabezado">02</h1>
+                <h3 class="subtitulo3">Hands & Feet</h3>
+                <p class="articuloinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum</p>
+                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+            <article class="wow animate__animated animate__bounceInRight servicio">
+                <h1 class="encabezado">03</h1>
+                <h3 class="subtitulo3">Pedicure</h3>
+                <p class="articuloinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod Lorem ipsum</p>
+                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </article>
+        </div>
+    </section>
+
+    <section class="ancho">
+        <div class="titulosecci">
+            <p class="titulo"><span>Our</span> Portafolio</p>
+            <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab deserunt hic natus eum adipisci optio maxime itaque et.Lorem ipsum dolor sit amet</p>
+        </div>
+        <section id="galeria" class="contenedor_fotos">
+            <a href="imagenes/portafolio1.jpg" class="fancybox" title="SAUNA" rel="gallery1">
+              <img src="imagenes/portafolio1.jpg" alt="" />
+            </a>
+    
+            <a href="imagenes/portafolio2.jpg" class="fancybox" title="JACUZZI" rel="gallery1">
+              <img src="imagenes/portafolio2.jpg" alt="" />
+            </a>
+    
+            <a href="imagenes/portafolio3.jpg" class="fancybox" title="CERAS ESPECIALES" rel="gallery1">
+              <img src="imagenes/portafolio3.jpg" alt="" />
+            </a>
+
+            <a href="imagenes/slide1.jpg" class="fancybox" title="CREMAS" rel="gallery1">
+                <img src="imagenes/slide1.jpg" alt="" />
+            </a>
+            
+            <a href="imagenes/slide2.jpg" class="fancybox" title="MASAJES" rel="gallery1">
+                <img src="imagenes/slide2.jpg" alt="" />
+            </a>
+
+            <a href="imagenes/portafolio4.jpg" class="fancybox" title="AIRE FRESCO" rel="gallery1">
+                <img src="imagenes/portafolio4.jpg" alt="" />
+              </a>
+        </section>
+    </section>
+
+    <section class="ancho">
+        <div class="titulosecci">
+            <p class="titulo"><span>Our</span> Team</p>
+            <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab deserunt hic natus eum adipisci optio maxime itaque et.Lorem ipsum dolor sit amet</p>
+        </div>
+        <section id="slider1">
+            <a class="buttons prev" href="#">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <div class="viewport">
+                <ul class="overview">
+                    <li>
+                        <img src="imagenes/carrusel1.jpg" />
+                        <h1>Miranda Reyes</h1>
+                        <h5>Manager</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagenes/carrusel2.jpg" />
+                        <h1>John Smith</h1>
+                        <h5>CEO</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagenes/carrusel3.jpg" />
+                        <h1>Carlos Greg</h1>
+                        <h5>Founder</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagenes/carrusel4.jpg" />
+                        <h1>Marlena Leon</h1>
+                        <h5>Masajista</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagenes/carrusel5.jpg" />
+                        <h1>Mark White</h1>
+                        <h5>Masajista</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imagenes/carrusel6.jpg" />
+                        <h1>Esmeralda Green</h1>
+                        <h5>Estilista</h5>
+                        <div class="iconos2">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a class="buttons next" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </section>
+    </section>
+
+    <section class="acordeones">
+        <div class="titulosecci">
+            <p class="titulo"><span>Our</span> Pricing</p>
+            <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab deserunt hic natus eum adipisci optio maxime itaque et.Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="acordeones2">
+            <div class="acordeon">
+                <div class="acordeon_titulo Titulo1">
+                    <h2>Silver Plan</h2>
+                    <i class="icono1 rotar fa-solid fa-circle-arrow-down"></i>
+                </div>
+                <article class="acordeon_contenido articulo_acordeon contenido1">
+                    <div>
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <h3>Silver Plan</h3>
+                    <h1>$100</h1>
+                    <h2>One Time Installation</h2>
+                    <ul>
+                        <li>Bikini Waxing</li>
+                        <li>Facial Waxing</li>
+                        <li>Leg Waxing</li>
+                        <li>Underarm Waxing</li>
+                        <li>Body Waxing</li>
+                    </ul>
+                    <a class="btn_fusha" href="#">PURCHASE NOW</a>
+                </article>
+            </div>
+            <div class="acordeon">
+                <div class="acordeon_titulo Titulo2">
+                    <h2>Gold Plan</h2>
+                    <i class="icono2 rotar fa-solid fa-circle-arrow-down"></i>
+                </div>
+                <article class="acordeon_contenido articulo_acordeon contenido2">
+                    <div>
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <h3>Gold Plan</h3>
+                    <h1>$150</h1>
+                    <h2>One Time Installation</h2>
+                    <ul>
+                        <li>Bikini Waxing</li>
+                        <li>Facial Waxing</li>
+                        <li>Leg Waxing</li>
+                        <li>Underarm Waxing</li>
+                        <li>Body Waxing</li>
+                    </ul>
+                    <a class="btn_fusha" href="#">PURCHASE NOW</a>
+                </article>
+            </div>
+            <div class="acordeon">
+                <div class="acordeon_titulo Titulo3">
+                    <h2>Silver Plan</h2>
+                    <i class="icono3 rotar fa-solid fa-circle-arrow-down"></i>
+                </div>
+                <article class="acordeon_contenido articulo_acordeon contenido3">
+                    <div>
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3>Diamond Plan</h3>
+                    <h1>$200</h1>
+                    <h2>One Time Installation</h2>
+                    <ul>
+                        <li>Bikini Waxing</li>
+                        <li>Facial Waxing</li>
+                        <li>Leg Waxing</li>
+                        <li>Underarm Waxing</li>
+                        <li>Body Waxing</li>
+                    </ul>
+                    <a class="btn_fusha" href="#">PURCHASE NOW</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="ancho secfinal">
+        <div class="noticias">
+            <article class="noticia borde">
+                <figure>
+                    <img src="imagenes/noticia1.jpg" alt="">
+                </figure>
+                <div class="calendario">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3>24TH MARCH 2021</h3>
+                </div>
+                <div class="tnot">
+                    <h1>Who are looking for high-quality skin care</h1>
+                    <p>It is a long established fact that a reader will be distracted by.</p>
+                </div>
+            </article>
+            <article class="noticia borde">
+                <figure>
+                    <img src="imagenes/noticia2.jpg" alt="">
+                </figure>
+                <div class="calendario">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3>24TH MARCH 2021</h3>
+                </div>
+                <div class="tnot">
+                    <h1>We are responsible for the quality of the service</h1>
+                    <p>It is a long established fact that a reader will be distracted by.</p>
+                </div>
+            </article>
+        </div>
+        <div class="formularo">
+            <h1>Contact us</h1>
+            <p class="informacion">If you have any questions concerning our services, please fill out the contact form below.</p>
+            <input class="form" type="text" value="Name *">
+            <input class="form" type="text" value="E-mail *">
+            <input class="form2" type="text" value="Message *">
+            <div>
+                <a href="#" class="btn_fusha2">SUBMIT</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="fondo_modal" id="modal">
+        <div class="modacuerpo">
+            <i id="cerrar_modal" class="btn_cerrar fa-solid fa-square-xmark"></i>
+            <iframe src="https://www.youtube.com/embed/-JD33_CLrxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie">
+            <h2>Our Contact</h2>
+            <ul>
+                <li>example@email.com</li>
+                <li>+880 1723 456</li>
+                <li>60 Grant Ave. Central new Road</li>
+            </ul>
+            <div class="iconos2">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <script>
+        $("#btnmenu").click(function (){
+            $("nav").slideToggle();
+        });
+    </script>
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+    </script>
+    <script type="text/javascript">
+		$(document).ready(function () {
+			$('#slider1').tinycarousel();
+		});
+	</script>
+    <script>
+        $(".Titulo1").click(function(){
+          $(".contenido1").slideToggle();
+          $(".icono1").toggleClass("rotar");
+        });
+        $(".Titulo2").click(function(){
+          $(".contenido2").slideToggle();
+          $(".icono2").toggleClass("rotar");
+        });
+        $(".Titulo3").click(function(){
+          $(".contenido3").slideToggle();
+          $(".icono3").toggleClass("rotar");
+        });
+    </script>
+    <script>
+        var fondomodal = document.getElementById("modal");
+        var cerrarbtn = document.getElementById("cerrar_modal");
+
+        function tiempo(){
+            fondomodal.style.display = "block";
+        }
+        setTimeout(tiempo, 5000);
+
+        cerrarbtn.onclick = function(){
+            fondomodal.style.display = "none";
+        };
+    </script>
+</body>
+</html>
